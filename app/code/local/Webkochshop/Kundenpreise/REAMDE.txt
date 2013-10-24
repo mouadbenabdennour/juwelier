@@ -1,0 +1,7 @@
+
+=== Webkochshop_Kundenpreise ===
+
+Magento - Das Handbuch für Entwickler
+Kapitel 5, Produkte und Kategorien
+
+Dieses Rezept zeigt eine Möglichkeit die Preisfindung von Produkten anzupassen.

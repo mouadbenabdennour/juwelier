@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   FME
+ * @package    FME_Events
+ * @author     Rao
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+ <config>
+    <tabs>
+        <FME module="events" translate="label">
+            <label>FME Extensions</label>
+            <!--class>mekemdev_config_logo</class-->
+            <sort_order>101</sort_order>
+        </FME>
+    </tabs>
+    <sections>
+        <events_options module="events" translate="label">
+            <label>Events Manager</label>
+            <sort_order>200</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <tab>FME</tab>
+            <groups>
+                <seo_info>
+                    <label>SEO Configurations</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <page_title>
+                            <label>Page Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </page_title>
+                        <meta_description>
+                            <label>Description</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </meta_description>
+                         <meta_keywords>
+                            <label>Keywords</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </meta_keywords>
+                         <events_url_prefix>
+                            <label>URL Prefix</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>Events page access. URL (e.g. http://www.example.com/event) Note!: Please use prefix other than "events" for module to work properly!</comment>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                         </events_url_prefix>
+                    </fields>
+                </seo_info>
+                <events_pages_layouts>
+                    <label>Layouts Configurations</label>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                       <!-- <events_default_view translate="label">
+                            <label>Default view for events</label>
+                            <comment>Default view options for events on mian page of events module.</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>events/config_system_eventsview</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </events_default_view>-->
+                        <landing_layout translate="label">
+                            <label>Landing page layout</label>
+                            <comment>Layout of landing page for the extension</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>events/config_system_pagelayouts</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </landing_layout>
+                        <events_view_layout translate="label">
+                            <label>Detail page layout</label>
+                            <comment>Layout of detail page for the extension</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>events/config_system_pagelayouts</source_model>
+                            <default_value>1</default_value>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </events_view_layout>
+                        <events_calendar_layout translate="label">
+                            <label>Calendar page layout</label>
+                            <comment>Layout of Calendar page for Events</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>events/config_system_pagelayouts</source_model>
+                            <default_value>1</default_value>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </events_calendar_layout>
+                    </fields>
+                </events_pages_layouts>
+                <event_status_notifications>
+                    <label>Configure event status messages</label>
+                    <sort_order>3</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                     <out_of_stock>
+                        <label>Out of stock</label>
+                        <comment>(If product attatch to an event is out of stock, what message to be displayed)</comment>
+                        <frontend_type>text</frontend_type>
+                        <sort_order>1</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </out_of_stock>
+                     <expired_event>
+                        <label>Event expired notification</label>
+                        <comment>(If event has expired, what message to be displayed)</comment>
+                        <frontend_type>text</frontend_type>
+                        <sort_order>2</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </expired_event>
+                     <err_empty_collection>
+                        <label>Error message for empty collection</label>
+                        <comment>Error message to be shown if no event has been defined for a particular date.</comment>
+                        <frontend_type>text</frontend_type>
+                        <sort_order>3</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </err_empty_collection>
+                    </fields>
+                </event_status_notifications>
+                <calendar_configs>
+                  <label>Calendar Configurations</label>
+                    <sort_order>4</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                     <all_events_link>
+                        <label>Link to main page of Events</label>
+                        <comment>If enable a link will appear in popup which upon clicking will take to the main page of the module.</comment>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>1</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </all_events_link>
+                     <limit_events_popup>
+                        <label>Event to show in popup</label>
+                        <comment>How many events to show in popup? (Default is 3)</comment>
+                        <frontend_type>text</frontend_type>
+                        <validate>validate-number</validate>
+                        <sort_order>1</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </limit_events_popup>
+                    </fields>
+                </calendar_configs>
+                <basic_configs>
+                    <label>Basic Configurations</label>
+                    <sort_order>5</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                     <header_link>
+                        <label>Header link title</label>
+                        <frontend_type>text</frontend_type>
+                        <sort_order>1</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </header_link>
+                     <header_link_enable>
+                        <label>Enable header link</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>2</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </header_link_enable>
+                     <bottom_link>
+                        <label>Footer link title</label>
+                        <frontend_type>text</frontend_type>
+                        <sort_order>3</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </bottom_link>
+                     <bottom_link_enable>
+                        <label>Enable bottom link</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>4</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </bottom_link_enable>
+                     <static_block_events>
+                        <label>Show events in static block according to </label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>events/config_system_eventsOf</source_model>
+                        <sort_order>5</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </static_block_events>
+                     <static_block_ndaysevents>
+                        <label>Show events in static block according to days</label>
+                        <frontend_type>text</frontend_type>
+                       <comment>(if provided this will have the priority, will fetch events "n" days ahead of event start date)</comment>
+                        <sort_order>6</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </static_block_ndaysevents>
+                     <sp_block_title>
+                        <label>Static block events title</label>
+                        <comment>Title for static block of events</comment>
+                        <frontend_type>text</frontend_type>
+                        <sort_order>7</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </sp_block_title>
+                     <show_map>
+                        <label>Show map on hover address</label>
+                        <comment>This will enable/disable the google map appears if hover the address</comment>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>8</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </show_map>
+                     <breadcrumb_enable>
+                        <label>Show Breadcrumbs</label>
+                        <comment>To show extension's breadcrumb or not.</comment>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>9</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </breadcrumb_enable>
+                     <static_evt_block>
+                        <label>Static Block</label>
+                        <frontend_type>text</frontend_type>
+                        <comment>Copy this code and paste in desired location.</comment>
+                        <sort_order>10</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                     </static_evt_block>
+                    </fields>
+                </basic_configs>
+                
+            </groups>
+        </events_options>
+    </sections>
+ </config>
+    

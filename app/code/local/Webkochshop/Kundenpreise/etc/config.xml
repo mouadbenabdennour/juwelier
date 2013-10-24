@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<Webkochshop_Kundenpreise>
+			<version>0.1.0</version>
+		</Webkochshop_Kundenpreise>
+	</modules>
+
+	<global>
+		<models>
+			<kundenpreise>
+				<class>Webkochshop_Kundenpreise_Model</class>
+			</kundenpreise>
+		</models>
+		<helpers>
+			<kundenpreise>
+				<class>Webkochshop_Kundenpreise_Helper</class>
+			</kundenpreise>
+		</helpers>
+		<resources>
+			<kundenpreise_setup>
+				<setup>
+					<module>Webkochshop_Kundenpreise</module>
+					<class>Mage_Customer_Model_Entity_Setup</class>
+				</setup>
+			</kundenpreise_setup>
+		</resources>
+	</global>
+
+    <frontend>
+		<events>
+			<catalog_product_collection_load_after>
+				<observers>
+					<kundenpreise>
+						<type>singleton</type>
+						<class>kundenpreise/observer</class>
+						<method>catalogProductCollectionLoadAfter</method>
+					</kundenpreise>
+				</observers>
+			</catalog_product_collection_load_after>
+			<catalog_product_load_after>
+				<observers>
+					<kundenpreise>
+						<type>singleton</type>
+						<class>kundenpreise/observer</class>
+						<method>catalogProductLoadAfter</method>
+					</kundenpreise>
+				</observers>
+			</catalog_product_load_after>
+		</events>
+    </frontend>
+	
+</config>

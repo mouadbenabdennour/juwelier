@@ -1,0 +1,84 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category  Symmetrics
+ * @package   Symmetrics_Buyerprotect
+ * @author    symmetrics - a CGI Group brand <info@symmetrics.de>
+ * @author    Eric Reiche <er@symmetrics.de>
+ * @copyright 2011 symmetrics - a CGI Group brand
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @link      http://www.symmetrics.de/
+ */
+?>
+    
+<?php
+    $helper = Mage::helper('buyerprotect');
+    if ($helper->isBuyerprotectActive() && $helper->getVariation() == 'classic'):
+        $_customerId = Mage::getSingleton('customer/session')->getCustomerId();
+        $_customer = Mage::getSingleton('customer/session')->getCustomer();
+        $_orderId = Mage::getSingleton('checkout/session')->getLastOrderId();
+        $_order = Mage::getSingleton('sales/order')->load($_orderId);
+    
+        $_subtotal = $_order->getBaseSubtotal();
+        $_grandTotal = $_order->getGrandTotal();
+        $_currencyCode = $_order->getOrderCurrencyCode();
+        $_email = $_order->getCustomerEmail();
+    
+        $_certificateAction = $this->getCertificateAction();
+        $_formAction = $this->getClassicFormAction();
+        $_tsId = $this->getTsId();
+        $_encoding = $this->getEncoding();
+        $_payment = $this->getPaymentType($_order);
+        
+        $_sealSrc = $this->getSkinUrl('images/buyerprotect/ts_classic_siegel.gif');
+        
+        $_sealTitle = $this->__('Trusted Shops Seal of Approval - Click to verify.');
+        $_submitBtnValue = $this->__('Register for Trusted Shops Buyer Protection');
+        $_infoText = $this->__('We offer you the Trusted Shops Buyer Protection as an additional service. ' . 
+            'We cover all costs for this guarantee. All you have to do is register!');
+?>
+<div id="ts_classic_subscribtion" style="border-top: 1px solid #E4E4E4; margin: 4em 0 0; padding: 8px 0 0;">
+    <table width=400 border="0" cellspacing="0" cellpadding="4">
+        <tr>
+            <td style="width: 90px;" class="ts_classic_seal">
+                <form name="formSiegel" method="post" action="<?php echo $_certificateAction ?>" target="_blank">
+                    <input type="image" border="0" src="<?php echo $_sealSrc ?>" title="<?php echo $_sealTitle ?>">
+                    <input name="shop_id" type="hidden" value="<?php echo $_tsId ?>">
+                </form>
+            </td>
+            <td align="justify" class="ts_classic_submit">
+                <form id="formTShops" name="formTShops" method="post" action="<?php echo $_formAction ?>" target="_blank">
+                    <input name="_charset_" type="hidden" value="<?php echo $_encoding ?>">
+                    <input name="shop_id" type="hidden" value="<?php echo $_tsId ?>">
+                    <input name="email" type="hidden" value="<?php echo $_email ?>">
+                    <input name="amount" type="hidden" value="<?php echo $_grandTotal ?>">
+                    <input name="curr" type="hidden" value="<?php echo $_currencyCode ?>">
+                    <input name="paymentType" type="hidden" value="<?php echo $_payment ?>">
+                    <input name="kdnr" type="hidden" value="<?php echo $_customerId ?>">
+                    <input name="ordernr" type="hidden" value="<?php echo $_orderId ?>">
+                    <?php echo $_infoText ?>
+                    <br/><br/>
+                    <input type="submit" id="btnProtect" name="btnProtect" value="<?php echo $_submitBtnValue ?>">
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script type="text/javascript">
+    $$('.checkout-onepage-success .main .col-main .buttons-set').first().insert({
+        before: $('ts_classic_subscribtion')
+    })
+</script>
+<?php endif /* variation==classic */ ?>

@@ -1,0 +1,205 @@
+<?php $_htmlId      = $this->getElement()->getHtmlId() ?>
+<?php $_htmlClass   = $this->getElement()->getClass() ?>
+<?php $_htmlName    = $this->getElement()->getName() ?>
+<?php $_readonly    = $this->getElement()->getReadonly() ?>
+<?php $_showWebsite = $this->isShowWebsiteColumn(); ?>
+<?php $_editWebsite = $this->isAllowChangeWebsite(); ?>
+<?php $_priceValueValidation = $this->getPriceValidation('validate-greater-than-zero'); ?>
+
+
+<style type="text/css">
+.autocomplete-w1 { background:url(<?php echo $this->getJsUrl('customerprice/shadow.png'); ?>) no-repeat bottom right; position:absolute; top:4px; left:3px; /* IE6 fix: */ _background:none; _top:1px; }
+.autocomplete-w2 { padding:0 6px 6px 0; }
+.autocomplete { width:500px; border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE specific: */ _height:350px;  _margin:0px 6px 6px 0; overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+</style>
+
+
+<?php $_showWebsite = $this->isShowWebsiteColumn(); ?>
+<?php $_showWebsite= $this->isMultiWebsites(); ?>
+
+<tr>
+    <td class="label"><?php echo $this->getElement()->getLabel() ?></td>
+    <td class="grid tier">
+    <table cellspacing="0" class="data border" id="customerprices_table" style="width:100%;">
+        <?php if ($_showWebsite): ?>
+        <col width="50" />
+        <?php endif; ?>
+        <col width="*" />
+        <col width="35" />
+        <col width="55" />
+        <col width="75" />
+        <col width="75" />
+        <col width="1" />
+        <col width="90" />
+        <thead>
+            <tr class="headings">
+                <th <?php if (!$_showWebsite): ?>style="display:none"<?php endif; ?>><?php echo Mage::helper('sales')->__('Website') ?></th>
+                <th><?php echo $this->__('Customer'); ?></th>
+                <th><?php echo $this->__('Qty'); ?></th>
+                <th><?php echo $this->getPriceColumnHeader(Mage::helper('catalog')->__('Price')) ?></th>
+                <th><?php echo $this->__('From'); ?></th>
+                <th><?php echo $this->__('To'); ?></th>
+                <th><?php echo $this->__('Action'); ?></th>
+                <th class="last">&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody id="<?php echo $_htmlId ?>_container"></tbody>
+        <tfoot>
+            <tr>
+                <td <?php if (!$_showWebsite): ?>style="display:none"<?php endif; ?>></td>
+                <td colspan="7" class="a-right"><?php echo $this->getAddButtonHtml() ?></td>
+            </tr>
+        </tfoot>
+    </table>
+<script type="text/javascript" src="<?php echo $this->getJsUrl('customerprice/autocomplete.js'); ?>"></script>
+<script type="text/javascript">
+//<![CDATA[
+var customerPriceRowTemplate = '<tr>'
+    + '<td<?php if (!$_showWebsite): ?> style="display:none"<?php endif; ?>>'
+    + '<select class="<?php echo $_htmlClass ?> required-entry" name="<?php echo $_htmlName ?>[{{index}}][website_id]" id="customer_price_row_{{index}}_website" style="width:50px;">'
+    <?php foreach ($this->getWebsites() as $_websiteId => $_info): ?>
+    + '<option value="<?php echo $_websiteId ?>"><?php echo $this->jsQuoteEscape($this->htmlEscape($_info['name'])) ?><?php if (!empty($_info['currency'])): ?> [<?php echo $this->htmlEscape($_info['currency']) ?>]<?php endif; ?></option>'
+    <?php endforeach ?>
+    + '</select></td>'
+    + '<td><input class="<?php echo $_htmlClass ?> customername required-entry" type="text" name="<?php echo $_htmlName ?>[{{index}}][customername]" id="customer_price_row_{{index}}_customername" style="width:98%" />'
+    + '<input class="<?php echo $_htmlClass ?> customer required-entry" type="hidden" name="<?php echo $_htmlName ?>[{{index}}][customer]" id="customer_price_row_{{index}}_customer" />'
+    + '</td>'
+    + '<td class="nobr"><input class="<?php echo $_htmlClass ?> qty required-entry validate-greater-than-zero" type="text" name="<?php echo $_htmlName ?>[{{index}}][price_qty]" value="{{qty}}" id="customer_price_row_{{index}}_qty" />'
+    + ' </td>'
+    + '<td><input class="<?php echo $_htmlClass ?> required-entry <?php echo $_priceValueValidation ?>" type="text" name="<?php echo $_htmlName ?>[{{index}}][price]" value="{{price}}" id="customer_price_row_{{index}}_price" style="width:40px;" /></td>'
+
+    + '<td class="nobr"><input class="<?php echo $_htmlClass ?> from" type="text" name="<?php echo $_htmlName ?>[{{index}}][from]" value="{{from}}" id="customer_price_row_{{index}}_from" style="float:left;width:42px;"/>'
+    + '<img style="margin-top:1px;float:right" id="customer_price_row_{{index}}_from_trig" src="<?php echo $this->getSkinUrl('images/grid-cal.gif'); ?>" /></td>'
+
+    + '<td class="nobr"><input class="<?php echo $_htmlClass ?> to" type="text" name="<?php echo $_htmlName ?>[{{index}}][to]" value="{{to}}" id="customer_price_row_{{index}}_to" style="float:left;width:42px;"/>'
+    + '<img style="margin-top:1px;float:right" id="customer_price_row_{{index}}_to_trig" src="<?php echo $this->getSkinUrl('images/grid-cal.gif'); ?>" /></td>'
+
+    + '<td class="last"><input type="hidden" name="<?php echo $_htmlName ?>[{{index}}][delete]" class="delete" value="" id="customer_price_row_{{index}}_delete" />'
+    + '<button title="<?php echo Mage::helper("catalog")->__("Delete Tier") ?>" type="button" class="scalable delete icon-btn delete-product-option" id="customer_price_row_{{index}}_delete_button" onclick="return customerPriceControl.deleteItem(event);">'
+    + '<span><?php echo Mage::helper("catalog")->__("Delete") ?></span></button></td>'
+    + '<td><a href="#" onclick="window.open(\'<?php echo $this->getUrl('*/customer/edit', array('id'=>'{{customer}}')); ?>\'); return true;"><?php echo Mage::helper("catalog")->__("Customer data") ?></a></td>'
+    + '</tr>';
+
+
+function addCalendar(inputId)
+{
+    Calendar.setup({
+        inputField : inputId,
+        ifFormat : "<?php echo Mage::app()->getLocale()->getDateStrFormat(Mage_Core_Model_Locale::FORMAT_TYPE_SHORT)?>",
+        button : inputId+"_trig",
+        showsTime: false,
+        align : "Bl",
+        singleClick : true
+    });
+}
+
+var customerPriceControl = {
+    template: new Template(customerPriceRowTemplate, new RegExp('(^|.|\\r|\\n)({{\\s*(\\w+)\\s*}})', "")),
+    itemsCount: 0,
+    addItem : function () {
+        <?php if ($_readonly): ?>
+        if (arguments.length < 4) {
+            return;
+        }
+        <?php endif; ?>
+        var data = {
+            website_id: '<?php echo $this->getDefaultWebsite() ?>',
+            customername: '',
+            customer: '',
+            qty: '',
+            price: '',
+            from: '',
+            to: '',
+            readOnly: false,
+            index: this.itemsCount++
+        };
+
+        if(arguments.length >= 4) {
+            data.website_id = arguments[0];
+            data.customer   = arguments[1];
+            data.qty        = arguments[2];
+            data.price      = arguments[3];
+            data.from       = arguments[4];
+            data.to         = arguments[5];
+        }
+        if (arguments.length >= 7) {
+            data.customername = arguments[6];
+        }
+        if (arguments.length == 8) {
+            data.readOnly = arguments[7];
+        }
+        
+        Element.insert($('<?php echo $_htmlId ?>_container'), {
+            bottom : this.template.evaluate(data)
+        });
+
+        $('customer_price_row_' + data.index + '_customer').value = data.customer;
+        $('customer_price_row_' + data.index + '_customername').value = data.customername;
+        $('customer_price_row_' + data.index + '_website').value = data.website_id;
+
+        <?php if ($this->isShowWebsiteColumn() && !$this->isAllowChangeWebsite()):?>
+        var wss = $('customer_price_row_' + data.index + '_website');
+        var txt = wss.options[wss.selectedIndex].text;
+
+        wss.insert({after:'<span class="website-name">' + txt + '</span>'});
+        wss.hide();
+        <?php endif;?>
+
+        if (data.readOnly == '1') {
+            ['website', 'customer', 'qty', 'price', 'delete'].each(function(idx){
+                $('customer_price_row_'+data.index+'_'+idx).disabled = true;
+            });
+            $('customer_price_row_'+data.index+'_delete_button').hide();
+        }
+
+        <?php if ($_readonly): ?>
+        $('<?php echo $_htmlId ?>_container').select('input', 'select').each(this.disableElement);
+        $('<?php echo $_htmlId ?>_container').up('table').select('button').each(this.disableElement);
+        <?php else: ?>
+        $('<?php echo $_htmlId ?>_container').select('input', 'select').each(function(el){ Event.observe(el, 'change', el.setHasChanges.bind(el)); });
+        <?php endif; ?>
+
+        addCalendar('customer_price_row_'+data.index+'_from');
+        addCalendar('customer_price_row_'+data.index+'_to');
+
+        new Autocomplete('customer_price_row_'+data.index+'_customername', eval(<?php echo json_encode($this->getCustomers()); ?>), { width: 500, onSelect: function(autoval, autodata) { $('customer_price_row_' + data.index + '_customer').value = autodata; } });
+
+    },
+    disableElement: function(el) {
+        el.disabled = true;
+        el.addClassName('disabled');
+    },
+    deleteItem: function(event) {
+        var tr = Event.findElement(event, 'tr');
+        if (tr) {
+            Element.select(tr, '.delete').each(function(elem){elem.value='1'});
+            Element.select(tr, ['input', 'select']).each(function(elem){elem.hide()});
+            Element.hide(tr);
+            Element.addClassName(tr, 'no-display template');
+        }
+        return false;
+    }
+};
+<?php
+/*
+108         $htmlId = $this->_getHtmlId() . microtime(true);
+109         $format = $this->getLocale()->getDateStrFormat(Mage_Core_Model_Locale::FORMAT_TYPE_SHORT);
+110 
+111         if ($this->getColumn()->getFilterTime()) {
+    112             $format .= ' ' . $this->getLocale()->getTimeStrFormat(Mage_Core_Model_Locale::FORMAT_TYPE_SHORT);
+    113         }
+
+    */
+foreach ($this->getValues() as $_item): ?>
+customerPriceControl.addItem('<?php echo $_item['website_id'] ?>', '<?php echo $_item['customer'] ?>', '<?php echo $_item['price_qty']*1 ?>', '<?php echo sprintf('%.2f', $_item['price']) ?>', '<?php echo
+$_item['from'] ?>', '<?php echo $_item['to'] ?>', '<?php echo str_replace("'", "\\'", $_item['customername']) ?>', <?php echo (int)!empty($_item['readonly'])?>);
+<?php endforeach; ?>
+<?php if ($_readonly): ?>
+$('<?php echo $_htmlId ?>_container').up('table').select('button')
+    .each(customerPriceControl.disableElement);
+<?php endif; ?>
+</script>
+</td></tr>

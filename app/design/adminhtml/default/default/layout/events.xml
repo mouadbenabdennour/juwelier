@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <eventsadmin_adminhtml_events_index>
+        <reference name="content">
+            <block type="events/adminhtml_events" name="events" />
+        </reference>
+    </eventsadmin_adminhtml_events_index>
+    <!--products related-->
+        <eventsadmin_adminhtml_events_products>
+        <block type="core/text_list" name="root">
+            <block type="events/adminhtml_events_edit_tab_products" name="events.edit.tab.products"/>
+            <block type="adminhtml/widget_grid_serializer" name="related_grid_serializer">
+                <reference name="related_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>events.edit.tab.products</grid_block_name>
+                        <data_callback>_getSelectedProducts</data_callback>
+                        <hidden_input_name>links[related]</hidden_input_name>
+                        <reload_param_name>products_related</reload_param_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </eventsadmin_adminhtml_events_products>
+
+    <eventsadmin_adminhtml_events_productsgrid>
+        <block type="core/text_list" name="root">
+           <block type="events/adminhtml_events_edit_tab_products" name="events.edit.tab.products"/>
+        </block>
+    </eventsadmin_adminhtml_events_productsgrid>
+    <!-- products end-->
+     <!-- wysiwyg code -->
+	<eventsadmin_cms_wysiwyg_images_index>
+	    <remove name="footer" />
+	    <remove name="head" />
+	    <reference name="left">
+		<block name="wysiwyg_images.js" type="adminhtml/cms_wysiwyg_images_content" template="cms/browser/js.phtml" />
+		<block name="wysiwyg_images.tree" type="adminhtml/cms_wysiwyg_images_tree" template="cms/browser/tree.phtml" />
+	    </reference>
+	    <reference name="content">
+		<block name="wysiwyg_images.content"  type="adminhtml/cms_wysiwyg_images_content" template="cms/browser/content.phtml">
+		    <block name="wysiwyg_images.uploader" type="adminhtml/cms_wysiwyg_images_content_uploader" template="cms/browser/content/uploader.phtml" />
+		    <block name="wysiwyg_images.newfolder" type="adminhtml/cms_wysiwyg_images_content_newfolder" template="cms/browser/content/newfolder.phtml" />
+		</block>
+	    </reference>
+	</eventsadmin_cms_wysiwyg_images_index>
+	<!-- wysiwyg code -->
+    <eventsadmin_adminhtml_events_edit>
+        <update handle="editor"/>
+    </eventsadmin_adminhtml_events_edit>
+</layout>

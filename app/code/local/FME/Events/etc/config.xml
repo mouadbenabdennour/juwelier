@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   FME
+ * @package    FME_Events
+ * @author     FME Extensions
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+	<default>
+			<events_options>
+				<seo_info>
+					<page_title>Events Manager</page_title>
+					<events_url_prefix>event</events_url_prefix>
+				</seo_info>
+				<events_pages_layouts>
+					<events_default_view>calender</events_default_view>
+					<events_view_layout>one_column</events_view_layout>
+					<landing_layout>one_column</landing_layout>
+					<events_calendar_layout>three_columns</events_calendar_layout>
+					<grid_columns>3</grid_columns>
+				</events_pages_layouts>
+				<event_status_notifications>
+					<out_of_stock>Out of Stock</out_of_stock>
+					<expired_event>Event has Expired!</expired_event>
+					<err_empty_collection>No record found!</err_empty_collection>
+				</event_status_notifications>
+				<calendar_configs>
+					<limit_events_popup>3</limit_events_popup>
+				</calendar_configs>
+				<basic_configs>
+					<header_link>All Eventshhhh</header_link>
+					<header_link_enable>1</header_link_enable>
+					<bottom_link>Footer All Events</bottom_link>
+					<static_evt_block>{{block type="events/spBlock" name="events.block" template="events/spblock.phtml"}}</static_evt_block>
+				</basic_configs>
+			</events_options>
+		</default>
+    <modules>
+        <FME_Events>
+            <version>0.1.0</version>
+        </FME_Events>
+    </modules>
+    <frontend>
+        <routers>
+            <events>
+                <use>standard</use>
+                <args>
+                    <module>FME_Events</module>
+                    <frontName>events</frontName>
+                </args>
+            </events>
+        </routers>
+        <layout>
+            <updates>
+                <events>
+                    <file>events.xml</file>
+                </events>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <FME_Events>
+                    <files>
+                        <default>FME_Events.csv</default>
+                    </files>
+                </FME_Events>
+            </modules>
+        </translate>
+    </frontend>
+    <admin>
+        <routers>
+			<eventsadmin>
+				<use>admin</use>
+				<args>
+					<module>FME_Events</module>
+					<frontName>eventsadmin</frontName>
+				</args>
+			</eventsadmin>
+        </routers>
+    </admin>
+    <adminhtml>
+    <menu>
+		<events translate="title" module="events">
+			<title>FME Extensions</title>
+			<children>
+				<events translate="title" module="events">
+					<title>FME Events</title>
+					<children>
+						<fme_evt_new translate="title" module="events">
+							<title>Add Events</title>
+							<sort_order>1</sort_order>
+							<action>eventsadmin/adminhtml_events/new</action>
+						 </fme_evt_new>
+						 <fme_mng_evts translate="title" module="events">
+							<title>Manage Events</title>
+							<sort_order>1</sort_order>
+							<action>eventsadmin/adminhtml_events/index</action>
+						 </fme_mng_evts>
+						 <fme_evts_config translate="title" module="events">
+							<title>Configuration</title>
+							<sort_order>3</sort_order>
+							<action>adminhtml/system_config/edit/section/events_options</action>
+						 </fme_evts_config>
+					</children>
+				</events>
+			</children>
+		</events>
+	</menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <events_options module="events">
+                                        <title>FME Events</title>
+                                    </events_options>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+					<events translate="title" module="events">
+					<title>FME Extensions</title>
+					<children>
+						<events translate="title" module="events">
+							<title>FME Events</title>
+							<sort_order>0</sort_order>
+							<children>
+								<fme_evt_new module="events">
+									<title>Add Events</title>
+									<sort_order>1</sort_order>
+								 </fme_evt_new>
+								 <fme_mng_evts module="events">
+									<title>Manage Events</title>
+									<sort_order>2</sort_order>
+								 </fme_mng_evts>
+								 <fme_evts_config translate="title">
+									<title>Configuration</title>
+									<sort_order>3</sort_order>
+								 </fme_evts_config>
+							</children>
+						</events>
+					</children>
+					</events>
+                 </children>
+            </admin>
+        </resources>
+    </acl>
+	 <translate>
+				<modules>
+					<FME_Events>
+						<files>
+							<default>FME_Events.csv</default>
+						</files>
+					</FME_Events>
+				</modules>
+			</translate>
+		<cms>
+      <browser>
+        <extensions>
+          <allowed>
+            <jpg>1</jpg>
+            <jpeg>1</jpeg>
+            <png>1</png>
+            <gif>1</gif>
+            <pdf>1</pdf>
+          </allowed>
+        </extensions>
+      </browser>
+    </cms>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<FME_Events>
+							<title>Events Module</title>
+							<sort_order>10</sort_order>
+						</FME_Events>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		<layout>
+			<updates>
+				<events>
+					<file>events.xml</file>
+				</events>
+			</updates>
+		</layout>
+		<translate>
+            <modules>
+                <FME_Events>
+                    <files>
+                        <default>FME_Events.csv</default>
+                    </files>
+                </FME_Events>
+            </modules>
+        </translate>
+    </adminhtml>   
+    <global>
+        <models>
+            <events>
+                <class>FME_Events_Model</class>
+                <resourceModel>events_mysql4</resourceModel>
+            </events>
+            <events_mysql4>
+                <class>FME_Events_Model_Mysql4</class>
+                <entities>
+                    <events>
+                        <table>events</table>
+                    </events>
+					<events_gallery>
+						<table>events_gallery</table>
+					</events_gallery>
+					<events_product>
+						<table>events_product</table>
+					</events_product>
+					<events_store>
+						<table>events_store</table>
+					</events_store>
+                </entities>
+            </events_mysql4>
+        </models>
+        <resources>
+            <events_setup>
+                <setup>
+                    <module>FME_Events</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </events_setup>
+            <events_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </events_write>
+            <events_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </events_read>
+        </resources>
+        <blocks>
+            <events>
+                <class>FME_Events_Block</class>
+            </events>
+        </blocks>
+        <helpers>
+            <events>
+                <class>FME_Events_Helper</class>
+            </events>
+        </helpers>
+		<events>
+			<controller_front_init_routers>
+				<observers>
+					<events>
+						<type>singleton</type>
+						<class>FME_Events_Controller_Router</class>
+						<method>initProtocol</method>
+					</events>
+				</observers>
+			</controller_front_init_routers>
+		</events>
+    </global>
+</config>

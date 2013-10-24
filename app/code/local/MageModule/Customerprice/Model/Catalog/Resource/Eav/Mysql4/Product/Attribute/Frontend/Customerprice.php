@@ -1,0 +1,5 @@
+<?php
+class MageModule_Customerprice_Model_Catalog_Resource_Eav_Mysql4_Product_Attribute_Frontend_Customerprice extends Mage_Eav_Model_Entity_Attribute_Frontend_Abstract
+{
+
+}

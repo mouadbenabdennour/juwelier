@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Mouad_Zeit>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Mouad_Zeit>
+    </modules>
+</config> 

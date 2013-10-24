@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageModule_Customerprice>
+            <active>true</active>
+            <codePool>local</codePool>
+        </MageModule_Customerprice>
+    </modules>
+</config>

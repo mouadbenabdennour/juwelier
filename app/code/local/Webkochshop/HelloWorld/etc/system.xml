@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+	<sections>
+		<helloworld translate="label" module="helloworld">
+			<label>Hello World</label>
+			<tab>general</tab>
+			<sort_order>90</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<general translate="label">
+					<label>General</label>
+					<sort_order>1</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<config_var1 translate="label">
+							<label>Config Var 1</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</config_var1>
+						<config_var2 translate="label">
+							<label>Config Var 2</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</config_var2>
+						<config_var3 translate="label">
+							<label>Config Var 3</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</config_var3>
+					</fields>
+				</general>
+			</groups>
+		</helloworld>
+	</sections>
+</config>

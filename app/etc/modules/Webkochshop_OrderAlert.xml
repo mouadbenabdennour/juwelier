@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Webkochshop_OrderAlert>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Webkochshop_OrderAlert>
+	</modules>
+</config>

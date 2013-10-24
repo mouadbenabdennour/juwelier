@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<package>
+    <name>trusted_shops_buyer_protection</name>
+    <version>0.4.30</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Implementation of the Trusted Shops Buyer Protection</summary>
+    <description>Official Trusted Shops Module "Trusted Shops" is the European quality label for online shops with buyer protection guarantee. The Trusted Shops extension was developed by Magento Enterprise Partner symmetrics gmbh and implements the full set of Trusted Shops functionality including Quality Label and Buyer Protection interface.</description>
+    <notes>
+        * Corrected spelling/grammar
+        * Added translations
+        * Under circumstances the shown Variation for the configured TS ID may not correspond to Store View scope which has been corrected
+        * Admin notification for checked TS ID is translated DE
+        * Added new TS seal logos for Admin area
+        * French spelling of module info tab in Admin area
+        * Created module exception class and replaced prior exception usage by module with that class
+        * Using .com TLD (https://qa.trustedshops.com) in testing mode to avoid SSL certification issue
+        * Replaced PDF documentation with link to online version in module info tab
+        * Documentation link is referencing to translated documentation depending on selected language in Admin area. Currently available languages: DE, ES, FR, PL and EN - where the latter is also the fallback
+        * Removed usage of deprecated PHP method split in mysql4-install-0.1.0.php script
+    </notes>
+    <authors>
+        <author>
+            <name>Boris Lokschin</name>
+            <user>symmetrics</user>
+            <email>bl@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Sergej Braznikov</name>
+            <user>symmetrics_sb</user>
+            <email>sb@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Eric Reiche</name>
+            <user>symmetrics_er</user>
+            <email>er@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Andreas Timm</name>
+            <user>symmetrics_at</user>
+            <email>at@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Eugen Gitin</name>
+            <user>symmetrics_eg</user>
+            <email>eg@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Torsten Walluhn</name>
+            <user>symmetrics_tw</user>
+            <email>tw@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Ngoc Anh Doan</name>
+            <user>symmetrics_nd</user>
+            <email>nd@symmetrics.de</email>
+        </author>
+    </authors>
+    <date>2013-05-23</date>
+    <time>16:23:45</time>
+    <contents><target name="magelocale"><dir name="de_DE"><dir name="migrations"><file name="ts_buyerprotect_error_email_de-DE.html"/></dir><file name="Symmetrics_Buyerprotect.csv"/></dir><dir name="es_ES"><file name="Symmetrics_Buyerprotect.csv"/></dir><dir name="pl_PL"><file name="Symmetrics_Buyerprotect.csv"/></dir><dir name="fr_FR"><file name="Symmetrics_Buyerprotect.csv"/></dir><dir name="en_UK"><file name="Symmetrics_Buyerprotect.csv"/></dir></target><target name="mageweb"><dir name="js"><dir name="symmetrics"><file name="paymentmapping.js"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="images"><dir name="buyerprotect"><file name="ts_classic_siegel.gif"/><file name="ts_logo.png"/></dir></dir><dir name="css"><file name="buyerprotect.css"/></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="buyerprotect"><file name="seal_rating_fr.jpg"/><file name="warning.gif"/><file name="tophr.png"/><file name="ts_wortmarke.jpg"/><file name="seal_rating_pl.jpg"/><file name="seal_rating_en.jpg"/><file name="seal_rating_de.jpg"/><file name="seal_rating_es.jpg"/><file name="certified-software.png"/></dir></dir><dir name="css"><file name="buyerprotect.css"/></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Symmetrics"><dir name="Buyerprotect"><dir name="etc"><file name="system.xml"/><file name="config.xml"/><file name="adminhtml.xml"/></dir><dir name="Model"><dir name="Type"><dir name="Buyerprotect"><file name="Price.php"/></dir><file name="Buyerprotect.php"/></dir><dir name="System"><dir name="Config"><dir name="Source"><file name="Variation.php"/><file name="Wsdl.php"/><file name="Payments.php"/></dir></dir></dir><dir name="Service"><dir name="Soap"><file name="Data.php"/></dir><file name="Soap.php"/></dir><file name="Observer.php"/><file name="Buyerprotection.php"/><file name="Products.php"/><file name="Setup.php"/></dir><dir name="Helper"><file name="Adminhtml.php"/><file name="Data.php"/></dir><dir name="Block"><dir name="Checkout"><file name="Form.php"/></dir><dir name="Adminhtml"><dir name="System"><dir name="Config"><file name="Documentation.php"/><file name="Info.php"/></dir></dir></dir><file name="Badge.php"/></dir><dir name="sql"><dir name="buyerprotect_setup"><file name="mysql4-upgrade-0.1.0-0.1.1.php"/><file name="mysql4-upgrade-0.1.1-0.1.3.php"/><file name="mysql4-install-0.1.0.php"/><file name="mysql4-upgrade-0.1.5-0.1.7.php"/></dir></dir><file name="Exception.php"/></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="buyerprotect.xml"/></dir><dir name="template"><dir name="buyerprotect"><dir name="checkout"><file name="excellence.phtml"/><file name="classic.phtml"/></dir><dir name="cart"><dir name="renderer"><file name="buyerprotect.phtml"/></dir></dir><file name="badge.phtml"/></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="buyerprotect.xml"/></dir><dir name="template"><dir name="buyerprotect"><dir name="system"><dir name="config"><file name="paymentmapping.js.phtml"/><file name="info.phtml"/></dir></dir><dir name="adminhtml"><dir name="catalog"><dir name="product"><file name="buyerprotect.js.phtml"/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Symmetrics_Buyerprotect.xml"/></dir></target></contents>
+    <compatible/>
+    <dependencies>
+        <required>
+            <php>
+                <min>5.2.0</min>
+                <max>6.0.0</max>
+            </php>
+        </required>
+    </dependencies>
+</package>

@@ -1,0 +1,50 @@
+<?php
+    /* date settings */
+        $month = (int) date('m');
+        $year = (int) date('Y');
+        $date = (int) date('d');
+        if ($this->getRequest()->getParam('month'))
+        {
+            $month = (int) $this->getRequest()->getParam('month');
+        }
+        
+        if ($this->getRequest()->getParam('year'))
+        {
+            $year = (int) $this->getRequest()->getParam('year');
+        }
+?>
+<style type="text/css">
+@import "<?php echo Mage::getBaseUrl('js').'events'. DS .'opentip'. DS; ?>opentip.css";
+/*.test {
+			border: 1px solid silver;
+			margin: 10px 15px;
+			display: inline-block;
+			width: auto;
+			padding: 5px 10px;
+			background: #eeeeee;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+		}*/
+</style>
+<style rel="stylesheet" type="text/css">
+@import "<?php echo Mage::getBaseUrl('skin').'frontend'. DS .'default'. DS .'default'. DS . 'css'. DS .'events'. DS; ?>calendar.css";
+</style>
+<script type="text/javascript" src="<?php echo Mage::getBaseUrl('js').'events'. DS .'opentip'. DS; ?>opentip.js"></script>
+<!--[if lt IE 9]><script src="<?php echo Mage::getBaseUrl('js').'events'. DS .'opentip'. DS; ?>excanvas.js"></script><![endif]-->
+<script src="<?php echo Mage::getBaseUrl('js').'events'. DS .'opentip'. DS; ?>excanvas.js"></script>
+	<script type="text/javascript">
+//        Opentip.useCss3Transitions = false;
+//        Opentip.useScriptaculousTransitions = true;
+		Opentip.debugging = true;
+// 		Opentip.defaultStyle = 'rounded';
+		Opentip.styles.codeSample = {
+			showOn: 'click',
+			hideOn: 'click',
+			targetJoint: [ 'right', 'middle' ],
+			tipJoint: [ 'left', 'middle' ],
+			stem: true
+		}
+	</script>
+<h2><?php echo date('M, Y', strtotime($date.'-'.$month.'-'.$year)) ?></h2>
+<?php echo Mage::helper('events/calendar')->calenderControls();  echo "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmgit"?>
+<?php echo Mage::helper('events/calendar')->drawCalendar($month,$year); ?>

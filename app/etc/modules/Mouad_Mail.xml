@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Mouad_Mail>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Mouad_Mail>
+    </modules>
+</config> 

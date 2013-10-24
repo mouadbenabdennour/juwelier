@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<package>
+    <name>symmetrics_trustedrating</name>
+    <version>0.2.3</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Trusted rating.</summary>
+    <description>This module implements the rating system of Trusted Shops
+(Trusted ratings) in a Magento shop. The module handles the display of
+the rating widget and e-mail sending for the customer rating.
+In configuration section in backend one can activate / deactivate
+Trusted Rating. One can set after how many days from the order the
+customer receives an e-mail with Evaluate button. Customers that bought in
+the shop before installation of the module, will not be written.
+In order to support several languages per shop, one needs explicit
+Trusted Shops ID for each language or per StoreView. It is also important
+that the selected language under "Sales -&gt; Trusted Shops customer
+rating -&gt; activation -&gt; Shop language" is the same as localization
+under "General -&gt; Option for localization -&gt; Localization". </description>
+    <notes>- Spanish translation, email template and button graphic added
+- Translated image alt text in reminder email
+- Added new TS seal logos for Admin area
+- French spelling of module info tab in Admin area
+- Replication of existing translations for other locales with same language
+- Moved design/theme from 'default_default' to 'base_default'
+- Replaced PDF documentation with link to online version in module info tab and Link is referencing to translated documentation depending on selected language in Admin area. Currently available languages: DE, ES, FR, PL and EN which is also the fallback
+- [FIXED] Reminder emails are sent to orders where the shop has no TS ID and rating links have no TS IDs in email. 
+</notes>
+    <authors>
+        <author>
+            <name>symmetrics gmbh</name>
+            <user>symmetrics</user>
+            <email>info@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Sergej Braznikov</name>
+            <user>symmetrics_sb</user>
+            <email>sb@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Torsten Walluhn</name>
+            <user>symmetrics_tw</user>
+            <email>tw@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Andreas Timm</name>
+            <user>symmetrics_at</user>
+            <email>at@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Ngoc Anh Doan</name>
+            <user>symmetrics_nd</user>
+            <email>nd@symmetrics.de</email>
+        </author>
+        <author>
+            <name>Eric Reiche</name>
+            <user>symmetrics_er</user>
+            <email>er@symmetrics.de</email>
+        </author>
+    </authors>
+    <date>2013-02-27</date>
+    <time>13:35:22</time>
+    <contents><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="images"><file name="bewerten_es.gif"/><file name="bewerten_pl.gif"/><file name="bewerten_de.gif"/><file name="bewerten_fr.gif"/><file name="bewerten_en.gif"/></dir><dir name="css"><dir name="symmetrics"><file name="trustedrating.css"/></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="trustedrating"><file name="seal_rating_fr.jpg"/><file name="tophr.png"/><file name="ts_wortmarke.jpg"/><file name="seal_rating_pl.jpg"/><file name="seal_rating_en.jpg"/><file name="seal_rating_de.jpg"/><file name="seal_rating_es.jpg"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="trustedrating.xml"/></dir><dir name="template"><dir name="trustedrating"><file name="trustedrating.phtml"/><file name="rateus.phtml"/></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="trustedrating.xml"/></dir><dir name="template"><dir name="trustedrating"><dir name="system"><dir name="config"><file name="info.phtml"/></dir></dir><file name="documentationlink.phtml"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Symmetrics_TrustedRating.xml"/></dir></target><target name="magecommunity"><dir name="Symmetrics"><dir name="TrustedRating"><dir name="Helper"><file name="Adminhtml.php"/><file name="Data.php"/></dir><dir name="controllers"><file name="RegistrationController.php"/></dir><dir name="etc"><file name="system.xml"/><file name="config.xml"/><file name="adminhtml.xml"/></dir><dir name="sql"><dir name="trustedrating_setup"><file name="mysql4-upgrade-0.1.5-0.1.7.php"/><file name="mysql4-upgrade-0.1.42-0.1.44.php"/><file name="mysql4-upgrade-0.1.58-0.1.59.php"/><file name="mysql4-install-0.1.5.php"/><file name="mysql4-upgrade-0.1.28-0.1.30.php"/><file name="mysql4-upgrade-0.1.53-0.1.55.php"/></dir></dir><dir name="Model"><dir name="Mysql4"><dir name="Mail"><file name="Collection.php"/></dir><file name="Mail.php"/></dir><dir name="System"><dir name="Date"><file name="Month.php"/><file name="Hour.php"/><file name="Abstract.php"/><file name="Minute.php"/><file name="Day.php"/><file name="Year.php"/></dir><file name="Rating.php"/></dir><file name="Observer.php"/><file name="Setup.php"/><file name="Mail.php"/><file name="Trustedrating.php"/></dir><dir name="Block"><dir name="Widget"><file name="Abstract.php"/></dir><dir name="Email"><file name="Widget.php"/></dir><dir name="Adminhtml"><dir name="System"><dir name="Config"><file name="Info.php"/></dir></dir></dir><file name="Documentationlink.php"/><file name="Widget.php"/></dir></dir></dir></target><target name="magelocale"><dir name="es_NI"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_PR"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="fr_FR"><dir name="template"><dir name="trustedrating"><dir name="email"><file name="trustedrating_email.html"/></dir></dir></dir><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_PY"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_PE"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="en_US"><dir name="template"><dir name="trustedrating"><dir name="email"><file name="trustedrating_email.html"/></dir></dir></dir></dir><dir name="es_PA"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="fr_BE"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="de_CH"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="fr_SN"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_GT"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_VE"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_EC"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_CO"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_CL"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_CR"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="de_AT"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_AR"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_ES"><dir name="template"><dir name="trustedrating"><dir name="email"><file name="trustedrating_email.html"/></dir></dir></dir><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_UY"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_SV"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_US"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="de_LI"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="de_LU"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="fr_LU"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="fr_CH"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="de_DE"><dir name="template"><dir name="trustedrating"><dir name="email"><file name="trustedrating_email.html"/></dir></dir></dir><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_MX"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="fr_CA"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_BO"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_DO"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="de_BE"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="es_HN"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="fr_MC"><file name="Symmetrics_TrustedRating.csv"/></dir><dir name="pl_PL"><dir name="template"><dir name="trustedrating"><dir name="email"><file name="trustedrating_email.html"/></dir></dir></dir><file name="Symmetrics_TrustedRating.csv"/></dir></target></contents>
+    <compatible/>
+    <dependencies>
+        <required>
+            <php>
+                <min>5.2.0</min>
+                <max>6.0.0</max>
+            </php>
+        </required>
+    </dependencies>
+</package>

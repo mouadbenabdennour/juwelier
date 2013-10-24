@@ -1,0 +1,524 @@
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:08:42+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:14:04+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:15+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+ line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+pp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:20+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:17:39+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:13+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:18+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:19:22+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 57: parser error : Couldn't find end of Start Tag events line 57  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 		                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Couldn't find end of Start Tag events line 60  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;events translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 				                         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Couldn't find end of Start Tag fme_evt_new line 63  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;fme_evt_new translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						                              ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 67: parser error : Opening and ending tag mismatch: children line 62 and fme_evt_new  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evt_new&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						               ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 68: parser error : Couldn't find end of Start Tag fme_mng_evts line 68  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_mng_evts translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						                                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 72: parser error : Opening and ending tag mismatch: children line 59 and fme_mng_evts  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_mng_evts&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						                ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : attributes construct error  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 73: parser error : Couldn't find end of Start Tag fme_evts_config line 73  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;fme_evts_config translate=&quot;title&quot;module=&quot;helloworld&quot;&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						                                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 77: parser error : Opening and ending tag mismatch: menu line 56 and fme_evts_config  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						 &lt;/fme_evts_config&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 						                   ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 78: parser error : Opening and ending tag mismatch: adminhtml line 55 and children  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 					&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 					           ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 79: parser error : Opening and ending tag mismatch: config line 2 and events  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 				&lt;/events&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 				         ^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 80: parser error : Extra content at the end of the document  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/children&gt;  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510
+2013-09-03T15:21:41+00:00 ERR (3): Warning: simplexml_load_string(): 			^  in C:\xampp\htdocs\juwelier\lib\Varien\Simplexml\Config.php on line 510

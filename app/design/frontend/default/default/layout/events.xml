@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/events/event_styles.css</stylesheet>
+			</action>
+        </reference>
+        <reference name="top.links">
+               <action method="addLink" translate="label title" module="events" ifconfig="events_options/basic_configs/header_link_enable"  ifvalue ="1">
+                   <label helper ="events/linkTitleHeader"/>
+                   <url helper ="events/clientUrl"/>
+                   <title helper ="events/linkTitleHeader"/>
+                   <prepare/>
+                   <urlParams/>
+                   <position>1</position>
+               </action>
+        </reference>
+        <reference name="footer_links">
+               <action method="addLink" translate="label title" module="events" ifconfig="events_options/basic_configs/bottom_link_enable"  ifvalue ="1">
+                  <label helper ="events/linkTitleBottom"/>
+                   <url helper ="events/clientUrl"/>
+                   <title helper ="events/linkTitleBottom"/>
+                   <prepare/>
+                   <urlParams/>
+              </action>
+         </reference>
+    </default>
+    <events_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template helper="events/landingLayout"/></action>
+        </reference>
+        <reference name="content">
+            <block type="events/events" name="events" template="events/events.phtml"/>
+        </reference>
+    </events_index_index>
+    <events_index_view>
+        
+         <!--reference name="head">
+            <action method="addJs"><script>events/jquery.min.js</script></action>
+        </reference-->
+        <reference name="root">
+            <action method="setTemplate"><template helper="events/eventViewLayout"/></action>
+        </reference>
+        <reference name="content">
+            <block type="events/viewEvents" name="eventsview" template="events/view.phtml" />
+        </reference>
+    </events_index_view>
+    <events_index_calendar>
+         
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/events/calendar.css</stylesheet></action>
+        </reference>
+       <reference name="root">
+            <action method="setTemplate"><template helper="events/calendarLayout"/></action>
+        </reference>
+        <reference name="content">
+            <block type="events/calendarEvents" name="eventscal" template="events/calendar.phtml"/>
+        </reference>
+    </events_index_calendar>
+</layout> 

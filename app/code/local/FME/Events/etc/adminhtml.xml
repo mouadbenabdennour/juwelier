@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : adminhtml.xml
+    Created on : October 12, 2011, 2:36 PM
+    Author     : Rao <rafay.tahir@unitedsol.net>
+    Description:
+        Purpose of the document follows.
+-->
+
+<config>
+	<menu>
+		<events translate="title" module="events">
+			<title>FME Extensions</title>
+			<children>
+				<events translate="title" module="events">
+					<title>FME Events</title>
+					<children>
+						<fme_evt_new translate="title" module="events">
+							<title>Add Events</title>
+							<sort_order>1</sort_order>
+							<action>eventsadmin/adminhtml_events/new</action>
+						 </fme_evt_new>
+						 <fme_mng_evts translate="title" module="events">
+							<title>Manage Events</title>
+							<sort_order>1</sort_order>
+							<action>eventsadmin/adminhtml_events/index</action>
+						 </fme_mng_evts>
+						 <fme_evts_config translate="title" module="events">
+							<title>Configuration</title>
+							<sort_order>3</sort_order>
+							<action>adminhtml/system_config/edit/section/events_options</action>
+						 </fme_evts_config>
+					</children>
+				</events>
+			</children>
+		</events>
+	</menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <events_options module="events">
+                                        <title>FME Events</title>
+                                    </events_options>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+					<events translate="title" module="events">
+					<title>FME Extensions</title>
+					<children>
+						<events translate="title" module="events">
+							<title>FME Events</title>
+							<sort_order>0</sort_order>
+							<children>
+								<fme_evt_new module="events">
+									<title>Add Events</title>
+									<sort_order>1</sort_order>
+								 </fme_evt_new>
+								 <fme_mng_evts module="events">
+									<title>Manage Events</title>
+									<sort_order>2</sort_order>
+								 </fme_mng_evts>
+								 <fme_evts_config translate="title">
+									<title>Configuration</title>
+									<sort_order>3</sort_order>
+								 </fme_evts_config>
+							</children>
+						</events>
+					</children>
+					</events>
+                 </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,108 @@
+<?php
+/**
+ * JS template file for buyerprotect types on product panel in backend
+ *
+ * @category  Symmetrics
+ * @package   Symmetrics_Buyerprotect
+ * @author    symmetrics - a CGI Group brand <info@symmetrics.de>
+ * @author    Ngoc Anh Doan <nd@symmetrics.de>
+ * @copyright 2010-2013 symmetrics - a CGI Group brand
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @link      http://www.symmetrics.de/
+ */
+?>
+<?php
+    /* @var $_helper Symmetrics_Buyerprotect_Helper_Data */
+    $_helper = Mage::helper('buyerprotect');
+?>
+<script type="text/javascript" charset="UTF-8">
+/*<![CDATA[*/
+    var buyerProtectOrigSku = $('sku').getValue();
+
+    Event.observe(window, 'load',
+        function()
+        {
+            <?php /* disabled || readonly */ ?>
+            var tsSkuComment = <?php echo $_helper->getTsSkuComment() ?>;
+            var tsSkuInput = $('sku');
+            var inputMode = 'disabled';
+            var catalogProductTabsPrefix = 'product_info_tabs_';
+            <?php /* tabs which shall be removes */ ?>
+            var removeCatalogProductTabs = new Array('Meta Information', 'Images', 'Description', 'Design');
+            var availableCatalogProductTabs = <?php echo $_helper->getAttributeGroups(true) ?>;
+
+            <?php /* add here <input> ids which shall be completely removed */ ?>
+            var removeInputTableRows = new Array(
+                'enable_googlecheckout', 'description', 'short_description',
+                'news_to_date', 'news_from_date', 'url_key',
+                'delivery_time', 'gift_message_available', 'generate_meta'
+            );
+
+            <?php /* add here <input> ids which shall be disabled */ ?>
+            var inputNodeIds = new Array(
+            <?php
+            /*
+                'sku', 'visibility', 'name', 'price'
+             */
+            ?>
+            );
+
+            $A(removeCatalogProductTabs).each(
+                function(element)
+                {
+                    nodeId = catalogProductTabsPrefix + availableCatalogProductTabs[element];
+                    nodeContentId = nodeId + '_content';
+
+                    if ($(nodeContentId)) {
+                        $(nodeContentId).innerHTML = '';
+                        $(nodeContentId).setStyle({ display: 'none' });
+
+                        $(nodeId).innerHTML = '';
+                        $(nodeId).up().setStyle({ display: 'none' });
+                    }
+                }
+            );
+
+            <?php /* removes whole rows */ ?>
+            removeInputTableRows.each(
+                function(item)
+                {
+                    var node = $(item);
+
+                    if (node) {
+                        node.up().up().innerHTML = '';
+                    }
+                }
+            );
+
+            inputNodeIds.each(
+                function(item)
+                {
+                    var node = $(item);
+
+                    if (node) {
+                        node.writeAttribute(inputMode, inputMode);
+                    }
+                }
+            );
+
+            <?php // insert sku note after sku row ?>
+            $(tsSkuInput).insert({after: tsSkuComment.content});
+
+            return;
+        }
+    );
+
+    $('sku').observe('change', function(){
+        var confirmMessage = "<?php echo $_helper->__("Attention! Do you really want to change the 'SKU'?") ?>";
+        var changeConfirmation = confirm(confirmMessage);
+
+        if (!changeConfirmation) {
+            $('sku').setValue(buyerProtectOrigSku);
+        }
+
+        return;
+    });
+/*]]>*/
+</script>
+

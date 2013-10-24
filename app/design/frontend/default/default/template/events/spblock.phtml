@@ -1,0 +1,53 @@
+<?php $eventOfDate = $this->eventsIn(); $i = 1; ?>
+<?php if (!empty($eventOfDate)): ?>
+<div class="event-sblock">
+	<div class="block-title">
+		<strong><span><?php echo $this->spBlockTitle(); ?></span></strong>
+	</div>
+<div class="block-content">
+<style type="text/css">
+	#carousel-wrapper {
+    width: 500px;
+    height: 110px;
+    overflow: hidden;
+}
+#carousel-content {
+    width: 2500px;
+}
+#carousel-content .slide {
+    float: left;
+    width: 500px;
+    height: auto;
+}
+</style>
+<script type="text/javascript" src="<?php echo Mage::getBaseUrl('js').'events'. DS;?>carousel.js"></script>
+
+<div id="carousel-wrapper">
+    <div id="carousel-content">
+			<?php foreach ($eventOfDate as $e): ?>
+			<?php
+				$str = $e['event_content'];
+				if (strlen($str) > 80):
+						$str = substr($e['event_content'],0,80)." ...";
+				endif;	
+			?>
+			<div class="slide">
+				<p class="empty"><b><a href="<?php echo Mage::helper('events')->customUrl($e['event_url_prefix']);?>"><?php echo $e['event_title']; ?></a></b></p>
+				<p class="empty"><b><?=$this->__('From')?>:</b> <?php echo date('d.m.Y - H:i ', strtotime($e['event_start_date'])); ?> <b><?=$this->__('To')?>:</b> <?php echo date('d.m.Y - H:i ', strtotime($e['event_end_date'])); ?></p>
+				<p class="empty"><b><?=$this->__('Venue')?>:</b> <?php echo $e['event_venu']; ?></p>
+				<p class="empty"><?php echo $str; ?></p>
+			</div>
+			<?php $i++; endforeach; ?>
+    </div>
+</div>
+<div class="controls">
+	<a style="float: right" rel="next" class="carousel-control ico-next" href="javascript:"><?=$this->__('Next')?> ›</a>
+	<a rel="prev" class="carousel-control ico-prev" href="javascript:">‹ <?=$this->__('Previous')?></a>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	new Carousel('carousel-wrapper', $$('#carousel-content .slide'), $$('a.carousel-control', 'a.carousel-jumper'),{auto: true, duration: 0.5, effect: 'fade', wheel: false});
+</script>
+<?php endif;?>

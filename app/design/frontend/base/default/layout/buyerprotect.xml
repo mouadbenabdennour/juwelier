@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category  Symmetrics
+ * @package   Symmetrics_Buyerprotect
+ * @author    symmetrics - a CGI Group brand <info@symmetrics.de>
+ * @author    Torsten Walluhn <tw@symmetrics.de>
+ * @copyright 2010-2013 symmetrics - a CGI Group brand
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @link      http://www.symmetrics.de/
+ */
+-->
+<layout version="0.1.0">
+    <default>
+        <reference name="right">
+            <block type="buyerprotect/badge" after="cart_sidebar" name="buyerprotect_badge" template="buyerprotect/badge.phtml" />
+        </reference>
+    </default>
+    <checkout_cart_index translate="label">
+        <reference name="checkout.cart">
+            <action method="addItemRender"><type>buyerprotect</type><block>checkout/cart_item_renderer</block><template>buyerprotect/cart/renderer/buyerprotect.phtml</template></action>
+        </reference>
+    </checkout_cart_index>
+    <checkout_onepage_index>
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/buyerprotect.css</stylesheet></action>
+        </reference>
+    </checkout_onepage_index>
+    <checkout_onepage_paymentmethod>
+        <block type="buyerprotect/checkout_form" name="buyerprotect.checkout.form" output="toHtml" template="buyerprotect/checkout/excellence.phtml"/>
+    </checkout_onepage_paymentmethod>
+    
+    <checkout_onepage_success>
+        <reference name="content">
+            <block type="buyerprotect/checkout_form" after="checkout.success" template="buyerprotect/checkout/classic.phtml" name="ts_bp_classic" />
+        </reference>
+    </checkout_onepage_success>
+    
+    <checkout_multishipping_success>
+        <reference name="content">
+            <block type="buyerprotect/checkout_form" after="checkout_success" template="buyerprotect/checkout/classic.phtml" name="ts_bp_classic" />
+        </reference>
+    </checkout_multishipping_success>
+</layout>
