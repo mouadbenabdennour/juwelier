@@ -213,16 +213,17 @@ function getCursorXY(e) {
 	?>
 			<p style="clear: both"></p>
 			<h3><?=$this->__('Event Video')?></h3>
-			<iframe class="youtube-player" type="text/html" width="458" height="385" src="http://www.youtube.com/embed/<?php echo stripslashes($videoId); ?>" frameborder="0">
-			</iframe>
+			<div>
+			<iframe class="youtube-player" type="text/html" width="458" height="385" src="http://www.youtube.com/embed/<?php echo stripslashes($videoId);?>?wmode=transparent" frameborder="0" wmode="Opaque">
+			</iframe></div>
 	<?php endif;?>
 	<!-- Video section ends -->
 	<p style="clear: both;"></p>
 	<!-- Social section -->
-
+<!-- Benabdennour
 	<div class = "event_social_wdgt">
 		<span class='st_fblike_hcount'></span><span class='st_twitter_hcount'></span><span class='st_plusone_hcount'></span><span class='st_email_hcount'></span><span class='st_sharethis_hcount'></span>
 	</div>
-	<p style="clear: both;"></p>
+	<p style="clear: both;"></p>-->
 	<?php echo $prevUrlLink; ?>
 <?php endif;?>

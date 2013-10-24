@@ -82,7 +82,7 @@ var Opentip = {
     // There must be a better way of doing this.
     return (typeof(obj) == 'object' && obj.type && obj.screenX);
   },
-  useIFrame: function() {return Opentip.IEVersion() ? (Opentip.IEVersion() <= 6) : false;},
+  useIFrame: function() {return Opentip.IEVersion() ? (Opentip.IEVersion() >= 6) : false;},
   lastTipId: 1,
   lastZIndex: 100,
   documentIsLoaded: false,

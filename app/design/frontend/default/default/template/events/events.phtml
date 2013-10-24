@@ -36,8 +36,9 @@
                     <h2 class="product-name"><a href="<?php echo Mage::helper('events')->customUrl($c->getEventUrlPrefix()); ?>" title="<?php echo $_eventNameStripped; ?>"><?php echo $c->getEventTitle(); ?></a></h2>
 					<span class="product-name"><?=$this->__('Venue')?>: </span><?php echo $c->getEventVenu(); ?><br />
 					<span class="product-name"><?=$this->__('kategory')?>: </span><?php 	echo $c->getKategory();  ?><br />
-					<strong><?=$this->__('From')?>:</strong> <?php echo date('d.m.Y  - H:i ', strtotime($c->getEventStartDate())); ?><br/> <b><?=$this->__('To')?>: </b><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventEndDate())); ?>
-                    <div class="desc std">
+					<span class="product-name"><?=$this->__('From')?>: </span><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventStartDate())); ?><br/>
+					<span class="product-name"><?=$this->__('To')?>: </span><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventEndDate())); ?><br/>
+					<div class="desc std">
                         <?php echo $str; ?>
                     </div>
                 </div>
@@ -70,9 +71,9 @@
 					<img src="<?php echo $thumbImgGrid;?>" width="100%" height="100%" /></a> 
 				<?php endif; ?>
                 <h2 class="product-name"><a href="<?php echo Mage::helper('events')->customUrl($c->getEventUrlPrefix()); ?>"><?php echo $c->getEventTitle() ?></a></h2>
-				<b><?=$this->__('From')?>:</b> <?php echo date('d.m.Y  - H:i ', strtotime($c->getEventStartDate())); ?><br/>
-				<b><?=$this->__('To')?>: </b><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventEndDate())); ?><br/>
-				<b><?=$this->__('Kategorie')?>: </b><?php echo $c->getKategory(); ?><br/>
+				<span class="product-name"><?=$this->__('From')?>:</span><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventStartDate())); ?><br/>
+				<span class="product-name"><?=$this->__('To')?>:</span><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventEndDate())); ?><br/>
+				<span class="product-name"><?=$this->__('Kategorie')?>: </span><?php echo $c->getKategory(); ?><br/>
 				
             </li>
         <?php if ($i%$_columnCount==0 || $i==$_collectionSize): ?>
