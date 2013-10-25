@@ -1,0 +1,91 @@
+
+<?php $extIdentifier = Mage::helper('events')->extIdentifier();?>
+<div class ='fme-events_land'>
+<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+<?php $collection = $this->getCollection(); ?>
+<div class="page-title">
+    <h1><?php echo $this->__($this->getTitle()) ?></h1>
+</div>
+<?php echo $this->getToolbarHtml(); ?>
+<?php if($collection->getSize()):  ?>
+
+	<?php if($this->getMode()!='grid'): ?>
+	<!-- List Model -->
+	<?php $_iterator = 0;  ?>
+    <ol class="products-list" id="products-list">
+    <?php foreach ($collection as $c): 
+		$thumbImgList = '';
+		if ($c->getEventImage() != ''):
+			$thumbImgList =  Mage::getBaseUrl('media').$c->getEventThumbImage();
+		endif;
+    	$event = Mage::getModel('catalog/category')->load($c->getId());
+		$str = $c->getEventContent();
+		if (strlen($str) > 150):
+				$str = substr($str,0,100)." ...";
+		endif;
+		?>
+        <li class="item<?php if(++$_iterator == sizeof($collection) ): ?> last<?php endif; ?>">
+            <?php if ($thumbImgList): ?>
+				<a href="<?php echo Mage::helper('events')->customUrl($c->getEventUrlPrefix()); ?>" title="<?php echo $this->stripTags($c->getEventTitle()); ?>" class="product-image">
+				<img src="<?php echo $thumbImgList; ?>" width="100%" height="100%" alt="<?php echo $this->stripTags($c->getEventTitle()); ?>" /></a>
+			<?php endif; ?>
+            <?php // Product description ?>
+            <div class="product-shop">
+                <div class="f-fix">
+                    <?php $_eventNameStripped = $this->stripTags($c->getEventTitle(), null, true); ?>
+                    <h2 class="product-name"><a href="<?php echo Mage::helper('events')->customUrl($c->getEventUrlPrefix()); ?>" title="<?php echo $_eventNameStripped; ?>"><?php echo $c->getEventTitle(); ?></a></h2>
+					<span class="product-name"><?=$this->__('Venue')?>: </span><?php echo $c->getEventVenu(); ?><br />
+					<span class="product-name"><?=$this->__('kategory')?>: </span><?php 	echo $c->getKategory();  ?><br />
+					<span class="product-name"><?=$this->__('From')?>: </span><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventStartDate())); ?><br/>
+					<span class="product-name"><?=$this->__('To')?>: </span><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventEndDate())); ?><br/>
+					<div class="desc std">
+                        <?php echo $str; ?>
+                    </div>
+                </div>
+            </div>
+        </li>
+    <?php endforeach; ?>
+    </ol>
+    <script type="text/javascript">decorateList('products-list', 'none-recursive')</script>
+	<?php else: ?>
+
+    <?php // Grid Mode ?>
+
+    <?php $_collectionSize = $collection->count() ?>
+    <?php 
+    	$_columnCount = Mage::helper('events')->numOfGridColumns();
+    ?>
+    <?php $i=0; foreach ($collection as $c):
+    $c = Mage::getModel('events/events')->load($c->getEventId());
+	$thumbImgGrid = '';
+	if ($c->getEventImage() != ''):
+		$thumbImgGrid = Mage::getBaseUrl('media').$c->getEventThumbImage();
+	endif;
+    ?>
+        <?php if ($i++%$_columnCount==0): ?>
+        <ul class="products-grid">
+        <?php endif ?>
+            <li class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+				<?php if ($thumbImgGrid): ?>
+					<a href="<?php echo Mage::helper('events')->customUrl($c->getEventUrlPrefix()) ?>" title="<?php echo $this->stripTags($c->getEventTitle()); ?>" class="product-image">
+					<img src="<?php echo $thumbImgGrid;?>" width="100%" height="100%" /></a> 
+				<?php endif; ?>
+                <h2 class="product-name"><a href="<?php echo Mage::helper('events')->customUrl($c->getEventUrlPrefix()); ?>"><?php echo $c->getEventTitle() ?></a></h2>
+				<span class="product-name"><?=$this->__('From')?>:</span><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventStartDate())); ?><br/>
+				<span class="product-name"><?=$this->__('To')?>:</span><?php echo date('d.m.Y  - H:i ', strtotime($c->getEventEndDate())); ?><br/>
+				<span class="product-name"><?=$this->__('Kategorie')?>: </span><?php echo $c->getKategory(); ?><br/>
+				
+            </li>
+        <?php if ($i%$_columnCount==0 || $i==$_collectionSize): ?>
+        </ul>
+        <?php endif ?>
+        <?php endforeach ?>
+        <!--<script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>-->
+    <?php endif; ?>
+
+<?php echo $this->getToolbarHtml(); ?>
+<?php else: ?>
+    <p><?php echo Mage::helper('events')->errMsg(); ?></p>
+	<a href="<?php echo $_SERVER ['HTTP_REFERER']; ?>"><?=$this->__('Back')?> << </a>
+<?php endif ?>
+</div>
